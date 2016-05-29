@@ -1,6 +1,20 @@
 @charset "utf-8";
 @import "normalize";
 
+h1 {
+  color: rgba(0,0,0,0.5);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: 200;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
 .homepage {
   background-image: url(/images/hill_outline.jpg);
   background-position: center;
@@ -27,9 +41,7 @@
       to top,
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.1)
-      ),
-      url(/images/hill_outline.jpg
-    );
+      ), url(/images/hill_outline.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,40 +61,10 @@
 
 .about-me > h2 {
   color: white;
-  font-size: 1em;
 }
 
 .otherstuff {
   background-color: #FFFFFF;
 
   margin-right: 60px;
-}
-
-h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  margin: 0;
-}
-
-.doc {
-  margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
-
-  a {
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: white;
-    text-decoration: none;
-    transition: color 0.1s linear;
-    &:hover {
-      background: rgba(0,0,0,0.2);
-      color: white;
-      transition: all 0.15s linear;
-    }
-  }
 }

@@ -16,12 +16,34 @@
 }
 
 .homepage > div {
-  background-color: #FFFFFF;
-  border-radius: 4px;
-  opacity: 0.85;
-
   flex: 1;
-  margin: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.about-me {
+  background-image: url(/images/hill_outline.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-left: 60px;
+  text-align: center;
+}
+
+.about-me > h1 {
+  color: white;
+}
+
+.about-me > h2 {
+  color: white;
+  font-size: 1em;
+}
+
+.otherstuff {
+  background-color: #FFFFFF;
+
+  margin-right: 60px;
 }
 
 h1 {

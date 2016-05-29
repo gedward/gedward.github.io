@@ -63,8 +63,22 @@ h2 {
   color: white;
 }
 
-.otherstuff {
+.resources {
   background-color: #FFFFFF;
-
   margin-right: 60px;
+  display: flex;
+  flex-flow: column;
+}
+
+.resources > div {
+  flex: 1;
+  margin-top: 50px;
+}
+
+.resource-links {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }

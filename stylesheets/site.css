@@ -411,6 +411,18 @@ h2 {
 .about-me > h2 {
   color: white; }
 
-.otherstuff {
+.resources {
   background-color: #FFFFFF;
-  margin-right: 60px; }
+  margin-right: 60px;
+  display: flex;
+  flex-flow: column; }
+
+.resources > div {
+  flex: 1;
+  margin-top: 50px; }
+
+.resource-links {
+  text-align: center; }
+  .resource-links a {
+    text-decoration: none;
+    color: black; }

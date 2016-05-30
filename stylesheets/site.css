@@ -388,7 +388,7 @@ h2 {
 
 .homepage > div {
   flex: 1;
-  min-width: 324px; }
+  min-width: 500px; }
   @media (min-width: 500px) {
     .homepage > div {
       margin-top: 20px;

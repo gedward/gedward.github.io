@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import "bourbon/bourbon";
 @import "normalize";
 
 $large-screen-margin: 20px;
@@ -20,7 +19,8 @@ h2 {
 }
 
 .homepage {
-  @include background-image(radial-gradient(circle at 50% 50%, #D3B698 10%, #709CBA 30%, #D3B698));
+  background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #D3B698 10%, #709CBA 30%, #D3B698);
+
   background-position: center;
   background-size: contain;
 

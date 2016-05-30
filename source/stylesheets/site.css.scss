@@ -34,7 +34,7 @@ h2 {
 
 .homepage > div {
   flex: 1;
-  min-width: 324px;
+  min-width: 500px;
 
   @media #{$large-screen} {
     margin-top: $large-screen-margin;

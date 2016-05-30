@@ -387,8 +387,10 @@ h2 {
   width: 100%; }
 
 .homepage > div {
-  flex: 1;
-  min-width: 500px; }
+  flex: 1; }
+  @media (max-width: 500px) {
+    .homepage > div {
+      min-width: 100%; } }
   @media (min-width: 500px) {
     .homepage > div {
       margin-top: 20px;

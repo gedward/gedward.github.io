@@ -380,14 +380,14 @@ h2 {
   background-position: center;
   background-size: contain;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   position: absolute;
   top: 0px;
   bottom: 0px;
   width: 100%; }
 
 .homepage > div {
-  flex: 1; }
+  flex: 1 0 auto; }
   @media (max-width: 500px) {
     .homepage > div {
       min-width: 100%; } }

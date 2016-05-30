@@ -25,7 +25,8 @@ h2 {
   background-size: contain;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -33,7 +34,7 @@ h2 {
 }
 
 .homepage > div {
-  flex: 1;
+  flex: 1 0 auto;
 
   @media #{$small-screen} {
     min-width: 100%;
